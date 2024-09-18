@@ -5,7 +5,7 @@ function Header() {
             <nav className="border-white-200 dark:bg-white-900 md: mx-20">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 text-white sm: justify-center">
                 <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse sm: space-x-0">
-                    <img src="/assets/logo.png" className="h-10" alt="Iker Benitez Developer" />
+                    <img src="/src/assets/logo.png" className="h-10" alt="Iker Benitez Developer" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">IkerDev</span>
                 </a>
                 {/* <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white-500 rounded-lg md:hidden hover:bg-white-100 focus:outline-none focus:ring-2 focus:ring-white-200 dark:text-white-400 dark:hover:bg-white-700 dark:focus:ring-white-600" aria-controls="navbar-default" aria-expanded="false">
