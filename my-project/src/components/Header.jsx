@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 function Header() {
     return (
-      <header>
+      <header className="fixed top-0 z-10 w-full bg-opacity-50 backdrop-blur-sm dark:bg-white-900 dark:border-white-700">
             <nav className="border-white-200 dark:bg-white-900 md: mx-20">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 text-white sm: justify-center">
                 <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse sm: space-x-0">

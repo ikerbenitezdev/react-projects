@@ -9,8 +9,10 @@ function App() {
   return (
     <>
      <Header />
+     <main className='pt-28'>
       <Post />
       <Timeline />
+      </main>
     </>
   )
 }

@@ -1,0 +1,11 @@
+main{
+    display: flex;
+    place-items: center;
+    max-width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: system-ui;
+
+}
+
+    
