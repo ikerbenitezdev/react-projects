@@ -4,7 +4,7 @@ import { useEffect, useRef} from 'react';
 import { useFrame } from '@react-three/fiber'
 
 function Model(props) {
-  const { scene } = useGLTF('/assets/assets/laptop.glb');
+  const { scene } = useGLTF('/assets/laptop.glb');
   const groupRef = useRef();
 
   // Rote el modelo en cada fotograma
