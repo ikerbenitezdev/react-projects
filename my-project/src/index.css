@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+/* Aplica la fuente a todo el documento */
+html {
+  font-family: "Onest", sans-serif; /* Aplica la fuente personalizada */
+  font-optical-sizing: auto; /* Ajusta el tamaño de la fuente */
+  font-style: normal; /* Asegura que el estilo sea normal */
+}
+
+body{
+  background-image: url('/src/assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.animated-background {
+  background-image: url('/src/assets/logo.gif'); /* Ruta al GIF */ /* Centra el texto horizontalmente */
+  background-clip: text; /* Recorta el fondo al área del texto */
+  -webkit-background-clip: text; /* Soporte para navegadores WebKit */
+  color: transparent; /* Hace el color del texto transparente para que solo se vea el fondo del GIF */
+  display: inline-block; /* Asegura que el texto se ajuste al contenido */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0.5rem;
+}
