@@ -4,7 +4,7 @@ import { OrbitControls } from '@react-three/drei';
 
 export default function Post() {
     return (
-        <section className="flex  flex-wrap justify-center  mx-auto mt-10 p-5 gap-2">
+        <section className="flex  flex-wrap justify-center  mx-auto py-16 gap-2 md:py-36">
   <article className="text-gray-200 flex flex-col gap-3">
     <h2 className="flex items-baseline text-3xl font-bold sm:text-4xl">
       ¡Hola! soy <span className="animated-background">Iker Benitez</span>

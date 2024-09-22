@@ -1,18 +1,18 @@
 import { useState } from 'react'
-import Header from './components/Header';
-import Post from './components/Post';
-import Timeline from './components/Timeline';
+// import Header from './components/Header';
+import Home from './components/Home';
+import { Routes, Route } from 'react-router-dom';
 import 'flowbite';
 
 function App() {
 
   return (
     <>
-     <Header />
-     <main className='pt-28'>
-      <Post />
-      <Timeline />
-      </main>
+     {/* <Header /> */}
+     <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/*" element={<h1>404</h1>} />
+     </Routes>
     </>
   )
 }

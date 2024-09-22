@@ -1,13 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap'); */
 
 /* Aplica la fuente a todo el documento */
 html {
   font-family: "Onest", sans-serif; /* Aplica la fuente personalizada */
   font-optical-sizing: auto; /* Ajusta el tamaño de la fuente */
   font-style: normal; /* Asegura que el estilo sea normal */
+  scroll-behavior: smooth;
 }
 
 body{

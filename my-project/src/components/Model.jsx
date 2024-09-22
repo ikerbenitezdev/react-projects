@@ -4,7 +4,7 @@ import { useEffect, useRef} from 'react';
 import { useFrame } from '@react-three/fiber'
 
 function Model(props) {
-  const { scene } = useGLTF('/src/assets/laptop.glb');
+  const { scene } = useGLTF('/laptop.glb');
   const groupRef = useRef();
 
   // Rote el modelo en cada fotograma
@@ -23,7 +23,7 @@ function Model(props) {
     
     // Movimiento suave de arriba a abajo usando Math.sin
     if (group) {
-      group.position.y = Math.sin(time) * 0.5; // Cambia 0.1 para ajustar la amplitud del movimiento
+      group.position.y = Math.sin(time * 2) * 0.8; // Cambia 0.1 para ajustar la amplitud del movimiento
     }
   });
   // scene.rotation.y = Math.PI;
