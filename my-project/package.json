@@ -13,6 +13,7 @@
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.7",
     "@types/three": "^0.168.0",
+    "cloudflared": "^0.5.3",
     "flowbite-react": "^0.10.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -31,6 +32,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "postcss": "^8.4.47",
+    "rollup-plugin-visualizer": "^5.12.0",
     "tailwindcss": "^3.4.11",
     "vite": "^5.4.5"
   }

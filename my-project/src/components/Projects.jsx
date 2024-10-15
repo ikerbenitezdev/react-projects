@@ -10,31 +10,31 @@ export default function Projects() {
             </h2>
             <div className="flex flex-col gap-y-16 text-gray-300">
 <article className="flex flex-col space-x-0 space-y-8 group  md:flex-row md:space-x-8 md:space-y-0">
-    <div className="w-full md:w-1/2"><img src="/src/assets/rugby.png" className="rounded-md object-cover object-top w-full h-56"></img></div>
+    <div className="w-full md:w-1/2"><a href="https://ikerbenitez.es/proyecto_rugby/" target="_blank"><img src="/rugby.png" className="rounded-md object-cover object-top w-full h-56"></img></a></div>
     <div className="w-full md:w-1/2 md:max-w-lg">
-        <h3>Web Menorca Rugby</h3>
-        <p>Descripción del proyecto 1</p>
+        <h3 className="text-xl">Web Menorca Rugby</h3>
+        <p className="text-gray-400">Desarrollé la página web para mi club de rugby, que incluía una tienda online con funcionalidades de gestión de productos y pedidos, aunque sin llegar a implementar la pasarela de pago. El sistema permitía a los administradores gestionar usuarios, dar de alta productos, y revisar los pedidos realizados, facilitando la administración de la tienda de manera eficiente</p>
     </div>
 </article>
-<article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
-    <div className="w-full md:w-1/2"><img src="/src/assets/foto-personal.jpeg" className="rounded-md object-cover object-top w-full h-56"></img></div>
-    <div className="w-full md:w-1/2 md:max-w-lg">
-        <h3>Proyecto 1</h3>
-        <p>Descripción del proyecto 1</p>
-    </div>
-</article>
-<article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
-    <div className="w-full md:w-1/2"><img src="/src/assets/foto-personal.jpeg" className="rounded-md object-cover object-top w-full h-56"></img></div>
+{/* <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+    <div className="w-full md:w-1/2"><a href="https://ikerbenitez.es/proyecto_rugby/" target="_blank"><img src="/foto-personal.jpeg" className="rounded-md object-cover object-top w-full h-56"></img></a></div>
     <div className="w-full md:w-1/2 md:max-w-lg">
         <h3>Proyecto 1</h3>
         <p>Descripción del proyecto 1</p>
     </div>
 </article>
+<article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+    <div className="w-full md:w-1/2"><img src="/foto-personal.jpeg" className="rounded-md object-cover object-top w-full h-56"></img></div>
+    <div className="w-full md:w-1/2 md:max-w-lg">
+        <h3>Proyecto 1</h3>
+        <p>Descripción del proyecto 1</p>
+    </div>
+</article> */}
 
 
 </div>
 
-        </section>
+</section>
 
     );
 }
