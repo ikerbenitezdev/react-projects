@@ -52,7 +52,7 @@ export default function Post() {
   </div>
       <button data-tooltip-target="tooltip-hover-javascript" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item right-[45px] -top-[4px] rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
       <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-      <img src="/src/assets/js-svgrepo-com.svg" alt="JavaScript" className="w-8 h-8"></img>
+      <img src="js-svgrepo-com.svg" alt="JavaScript" className="w-8 h-8"></img>
       </span>
     </button>
     <div id="tooltip-hover-javascript" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
@@ -61,7 +61,7 @@ export default function Post() {
   </div>
     <button data-tooltip-target="tooltip-hover-php" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -left-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
       <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-        <img src='/src/assets/php-logo.svg' alt="PHP" className="w-8 h-8"></img>
+        <img src='php-logo.svg' alt="PHP" className="w-8 h-8"></img>
       </span>
     </button>
     <div id="tooltip-hover-php" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
