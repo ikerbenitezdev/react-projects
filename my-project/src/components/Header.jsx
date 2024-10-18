@@ -18,22 +18,22 @@ function Header() {
                 <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-white-100 rounded-lg text-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-white-800 md:dark:bg-white-900 dark:border-white-700">
                     <li>
-                    <a href="/#timeline" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                    <a href="#timeline" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
                         Experiencia
                     </a>
                     </li>
                     <li>
-                    <a href="/#projects" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                    <a href="#projects" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
                         Proyectos
                     </a>
                     </li>
                     <li>
-                    <a href="#" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                    <a href="#about" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
                         Sobre mí
                     </a>
                     </li>
                     <li>
-                    <a href="#" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                    <a href="#contact" className="block py-2 px-3 text-white-900 rounded hover:bg-white-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white-700 dark:hover:text-white md:dark:hover:bg-transparent">
                         Contacto
                     </a>
                     </li>
