@@ -2,7 +2,7 @@
 export default function Contact() {
     return (
         <section id="contact" data-section="contacto" className="scroll-m-20 max-w-3xl mx-auto">
-        <h3 className="text-center text-gray-300 text-lg mb-8">Escribeme para cualquier duda 📥</h3>
+        <h3 className="text-center text-gray-300 text-lg mb-8">Escríbeme para cualquier duda 📥</h3>
         <form className="w-full" action="/contact" method="POST">
         <div className="flex flex-wrap mb-6">
         <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
