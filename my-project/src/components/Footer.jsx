@@ -5,7 +5,7 @@ function Footer() {
     return (
       
 
-<footer className="opacity-80 m-4 min-[375px]:pl-4 md:pl-0 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-10 flex justify-center">
+<footer className="opacity-80 m-4 min-[375px]:pl-4 md:pl-0 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-16 flex justify-center">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">©{currentYear}<a href="https://ikerbenitez.es/" className="hover:underline"> Iker Benitez</a>. Casi todos los derechos reservados
     </span>
