@@ -39,53 +39,61 @@ export default function Post() {
         </p>
         <div className="flex gap-4">
 
-        <button data-tooltip-target="tooltip-hover-react" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item left-[45px] -top-[4px] rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500" title='React'>
-      <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-        <img src='react.svg' alt="React"></img>
-      </span>
-    </button>
-    <div id="tooltip-hover-react" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-    React
-    <div className="tooltip-arrow" data-popper-arrow></div>
-  </div>
-      <button data-tooltip-target="tooltip-hover-javascript" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item right-[45px] -top-[4px] rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-      <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-      <img src="js.svg" alt="JavaScript"></img>
-      </span>
-    </button>
-    <div id="tooltip-hover-javascript" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-    Javascript
-    <div className="tooltip-arrow" data-popper-arrow></div>
-  </div>
-    <button data-tooltip-target="tooltip-hover-php" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -left-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-      <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-        <img src='php-logo.svg' alt="PHP" className='w-7 h-7'></img>
-      </span>
-    </button>
-    <div id="tooltip-hover-php" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-    Php
-    <div className="tooltip-arrow" data-popper-arrow></div>
-  </div>
-    <button data-tooltip-target="tooltip-hover-tailwind" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -left-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-      <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-        <img src='tailwind.svg' alt="Tailwind"></img>
-      </span>
-    </button>
-    <div id="tooltip-hover-tailwind" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-    Tailwind
-    <div className="tooltip-arrow" data-popper-arrow></div>
-  </div>
-    <button data-tooltip-target="tooltip-hover-wordpress" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -right-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-
-      <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
-        <img src='wordpress.svg' alt="Wordpress"></img>
-      </span>
-    </button>
-    <div id="tooltip-hover-wordpress" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-    Wordpress + Elementor
-    <div className="tooltip-arrow" data-popper-arrow></div>
-  </div>
-    </div>
+          <button data-tooltip-target="tooltip-hover-react" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item left-[45px] -top-[4px] rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500" title='React'>
+            <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
+              <img src='react.svg' alt="React"></img>
+            </span>
+          </button>
+          <div id="tooltip-hover-react" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            React
+            <div className="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <button data-tooltip-target="tooltip-hover-javascript" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item right-[45px] -top-[4px] rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+            <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
+              <img src="js.svg" alt="JavaScript"></img>
+            </span>
+          </button>
+          <div id="tooltip-hover-javascript" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Javascript
+            <div className="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <button data-tooltip-target="tooltip-hover-php" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -left-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+            <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
+              <img src='php-logo.svg' alt="PHP" className='w-7 h-7'></img>
+            </span>
+          </button>
+          <div id="tooltip-hover-php" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Php
+          <div className="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <button data-tooltip-target="tooltip-hover-tailwind" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -left-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+            <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
+              <img src='tailwind.svg' alt="Tailwind"></img>
+            </span>
+          </button>
+          <div id="tooltip-hover-tailwind" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Tailwind
+          <div className="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <button data-tooltip-target="tooltip-hover-wordpress" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -right-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+            <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
+              <img src='wordpress.svg' alt="Wordpress"></img>
+            </span>
+          </button>
+          <div id="tooltip-hover-wordpress" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Wordpress + Elementor
+          <div className="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <button data-tooltip-target="tooltip-hover-mysql" data-tooltip-trigger="hover" data-tooltip-placement="bottom" type="button" className="profile_item -right-4 top-20 rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+            <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
+              <img src='mysql.svg' alt="MySQL"></img>
+            </span>
+          </button>
+          <div id="tooltip-hover-mysql" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            MySQL
+            <div className="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </div>
       </article>
 
       <article className="flex-shrink-0">
