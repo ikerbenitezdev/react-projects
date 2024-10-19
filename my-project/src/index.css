@@ -9,6 +9,7 @@ html {
   font-optical-sizing: auto; /* Ajusta el tamaño de la fuente */
   font-style: normal; /* Asegura que el estilo sea normal */
   scroll-behavior: smooth;
+  font-size: 18px;
 }
 .button {
   cursor: pointer;

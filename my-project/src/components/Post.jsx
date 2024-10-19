@@ -12,7 +12,7 @@ export default function Post() {
         <img className="rounded-full shadow-lg size-16 object-cover" src="/foto-personal.jpeg" alt="Iker Benitez"></img>
         <button
           type="submit"
-          className="h-8 shadow-xl text-sm border-2 pb-8 text-emerald-800 bg-gray-50 border-emerald-400 backdrop-blur-md before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-emerald-400 hover:text-gray-50 hover:border-white before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden rounded-full group"
+          className="h-8 shadow-xl text-sm border-2 pb-8 text-emerald-800 bg-gray-50 border-emerald-400 backdrop-blur-md before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-emerald-400 hover:border-white hover:text-gray-900 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden rounded-full group"
         >
           <a className="flex justify-center gap-2 items-center" target="_blank" href="https://www.linkedin.com/in/iker-benitez-soria-8b1015276/">Disponible para trabajar
           <svg
@@ -31,7 +31,7 @@ export default function Post() {
 
       </div>
         <h2 className="flex items-baseline text-3xl font-bold sm:text-4xl">
-          ¡Hola! soy <span className="animated-background">Iker Benitez</span>
+          ¡Hola! Soy <span className="animated-background">Iker Benitez</span>
         </h2>
         <h3 className='text-xl text-gray-400'>Técnico superior en Desarrollo de Aplicaciones Web</h3>
         <p className="text-gray-100">
