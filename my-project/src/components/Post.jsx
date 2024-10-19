@@ -14,7 +14,7 @@ export default function Post() {
           type="submit"
           className="h-8 shadow-xl text-sm border-2 pb-8 text-emerald-800 bg-gray-50 border-emerald-400 backdrop-blur-md before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-emerald-400 hover:border-white hover:text-gray-900 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden rounded-full group"
         >
-          <a className="flex justify-center gap-2 items-center" target="_blank" href="https://www.linkedin.com/in/iker-benitez-soria-8b1015276/">Disponible para trabajar
+          <a className="flex justify-center gap-2 items-center" target="_blank" href="https://www.linkedin.com/in/ikerbenitez">Disponible para trabajar
           <svg
             className="w-6 h-6 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
             viewBox="0 0 16 19"
