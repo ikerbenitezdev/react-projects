@@ -7,7 +7,6 @@ const FollowMouse = () => {
     console.log('useEffect')
     const handleMove = (event) => {
       const { clientX, clientY } = event
-      console.log(clientX, clientY);
       setPosition({ x: clientX, y: clientY })
     }
     if (enabled) {
@@ -16,6 +15,17 @@ const FollowMouse = () => {
     return () => {
       window.removeEventListener('pointermove', handleMove)
     }}
+    ,
+[enabled]  
+  )
+
+  useEffect(() => {
+    console.log("cursor effect");
+    document.body.classList.toggle('no-cursor', enabled)
+    return () => {
+      document.body.classList.remove('no-cursor')
+    }
+  }
     ,
 [enabled]  
   )

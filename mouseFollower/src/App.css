@@ -31,7 +31,9 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
+body.no-cursor {
+  cursor: none;
+}
 .card {
   padding: 2em;
 }
