@@ -6,7 +6,6 @@ const Model = lazy(() => import('./Model'));
 export default function Post() {
   return (
     <section className="flex flex-wrap justify-center items-center mx-auto py-20 gap-x-2 gap-y-5 md:py-36">
-      <article className="text-gray-200 flex flex-col max-w-xl gap-3">
       <div className="flex gap-4 mb-4"> 
         <div className='flex gap-4 items-center'>
         <img className="rounded-full shadow-lg size-16 object-cover" src="/foto-personal.jpeg" alt="Iker Benitez"></img>
@@ -112,6 +111,5 @@ export default function Post() {
           {/* </Suspense> */}
         </Canvas>
       </article>
-    </section>
   );
 }

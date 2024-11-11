@@ -1,0 +1,38 @@
+{
+    "higiene": [
+      { "nombre": "Lejía", "importancia": 1 },
+      { "nombre": "Gel desinfectante", "importancia": 2 },
+      { "nombre": "Jabón en barra", "importancia": 3 },
+      { "nombre": "Papel higiénico", "importancia": 4 },
+      { "nombre": "Pañales", "importancia": 5 }
+    ],
+    "comida": [
+      { "nombre": "Agua embotellada", "importancia": 1 },
+      { "nombre": "Comida enlatada", "importancia": 2 },
+      { "nombre": "Leche en polvo", "importancia": 3 },
+      { "nombre": "Pasta seca", "importancia": 4 },
+      { "nombre": "Arroz", "importancia": 5 }
+    ],
+    "herramientas": [
+      { "nombre": "Escobas grandes", "importancia": 1 },
+      { "nombre": "Pala", "importancia": 2 },
+      { "nombre": "Guantes de trabajo", "importancia": 3 },
+      { "nombre": "Manguera de alta presión", "importancia": 4 },
+      { "nombre": "Cubo grande", "importancia": 5 }
+    ],
+    "ropa": [
+      { "nombre": "Botas de agua", "importancia": 1 },
+      { "nombre": "Ropa de abrigo", "importancia": 2 },
+      { "nombre": "Ropa interior", "importancia": 3 },
+      { "nombre": "Calcetines", "importancia": 4 },
+      { "nombre": "Guantes", "importancia": 5 }
+    ],
+    "medicina": [
+      { "nombre": "Analgésicos", "importancia": 1 },
+      { "nombre": "Antisépticos", "importancia": 2 },
+      { "nombre": "Vendas y gasas", "importancia": 3 },
+      { "nombre": "Mascarillas", "importancia": 4 },
+      { "nombre": "Botiquín de primeros auxilios", "importancia": 5 }
+    ]
+  }
+  
