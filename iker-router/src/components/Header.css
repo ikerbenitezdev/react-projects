@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul{
+    display: flex;
+    gap: 2em;
+  }
+
+  nav a {
+    position: relative; /* Necesario para posicionar ::after */
+    text-decoration: none; /* Quitamos el subrayado predeterminado */
+    color: inherit; /* Mantiene el color del texto */
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  nav a::after {
+    content: ""; /* Pseudo-elemento vacío para crear la línea */
+    position: absolute; /* Posicionamiento relativo al enlace */
+    bottom: 0; /* Aparece en la parte inferior del enlace */
+    left: 0; /* Inicia desde la izquierda */
+    width: 0; /* Comienza invisible */
+    height: 2px; /* Grosor del borde */
+    background-color: #646cff; /* Color de la línea */
+    transition: width 0.3s ease-in-out; /* Suaviza la animación */
+  }
+  
+  nav a:hover::after {
+    color: #646cff; 
+    width: 100%; /* Se extiende hasta cubrir todo el ancho */
+  }
+  
