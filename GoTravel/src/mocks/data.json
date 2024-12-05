@@ -1,0 +1,10 @@
+{
+    "trips" : [
+        {
+            "location": "Madrid",
+            "duration": 3,
+            "description": "3 dias por Madrid donde hemos visitado...",
+            "username": "anonimo"
+        }
+    ]
+}
