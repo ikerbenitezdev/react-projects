@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  background-color: #00381f;
+  color: #333;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} 
+.app {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;    /* Centra verticalmente */
+  height: 100vh;          /* Ocupa toda la altura de la ventana */
+  text-align: center;     /* Opcional: centra el texto en el interior */
+  /* background-color: #f7f7f7; Fondo navideño */
+}
+
+.main-title {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #a9cce3;
+}
+
+.button {
+  background-color: #f7f7f7;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+  color: #f7f7f7;
+}
+
+.snowflake {
+  user-select: none;
+  pointer-events: none;
+  z-index: 9999;
+  color: #a9cce3;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  white-space: nowrap;
+}
+
+.step{
+  color: whitesmoke;
+  padding: 2em;
+}

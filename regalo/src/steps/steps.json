@@ -1,0 +1,115 @@
+{
+    "steps": [
+        {
+            "id": 0,
+            "title": "",
+            "description": "",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "",
+            "next": 1
+        },
+        {
+            "id": 1,
+            "title": "Hola lo he hecho con mucho amor para que lo disfrutes",
+            "description": "Se trata de un mini juego para pasarlo bien, espero que te guste :)",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "img/inicio.png",
+            "next": 2
+        },
+        {
+            "id": 2,
+            "title": "Bueno vamos a empezar",
+            "description": "El juego tiene contraseña si no lo sabes no puedes continuar",
+            "isQuestion": true,
+            "questionType": "text",
+            "question": "Tienes 3 oportunidades 😄",
+            "answer": "contraseña",
+            "media": "",
+            "next": 3
+        },
+        {
+            "id": 3,
+            "title": "¡Muy bien, empieza el juego!",
+            "description": "Cada vez que aciertes una pregunta, podrás abrir un regalo",
+            "isQuestion": false,
+            "questionType": "yes_no",
+            "question": "",
+            "answer": "Yes",
+            "media": "video/santa-dancing.gif",
+            "next": 4
+        },
+        {
+            "id": 4,
+            "title": "Eres fan de How I Met your Mother ¿verdad?",
+            "description": "",
+            "isQuestion": true,
+            "questionType": "radio",
+            "options": ["Azul", "Rojo", "Verde", "Amarillo"],
+            "question": "¿De qué color es el cuerno francés que Ted robó para Robin?",
+            "answer": "Azul",
+            "media": "img/mother.jpg",
+            "next": 5
+        },
+        {
+            "id": 5,
+            "title": "¡Muy bien! Era el más fácil, No os flipeis 😂",
+            "description": "Espera. Puedes abrir un regalo",
+            "isQuestion": false,
+            "questionType": "text",
+            "question": "",
+            "answer": "",
+            "media": "video/regalo3.gif",
+            "next": 6
+        },
+        {
+            "id": 6,
+            "title": "Sigamos con el juego",
+            "description": "Adivina adivinanza 😎",
+            "isQuestion": true,
+            "questionType": "text",
+            "question": "Existe un ser vivo capaz de beber agua con los pies. ¿Cuál es? (una palabra)",
+            "answer": "arbol",
+            "media": "",
+            "next": 7
+        },
+        {
+            "id": 7,
+            "title": "No se si ha sido fácil para ti, pero me ha hecho gracia",
+            "description": "Puedes abrir otro regalo, pero a partir de ahora incrementará la dificultad",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "video/arbol.gif",
+            "next": 8
+        },
+        {
+            "id": 8,
+            "title": "No se si ha sido fácil para ti, pero me ha hecho gracia",
+            "description": "Puedes abrir otro regalo, pero a partir de ahora incrementará la dificultad",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "video/arbol.gif",
+            "next": 9
+        },
+        {
+            "id": 9,
+            "title": "No se si ha sido fácil para ti, pero me ha hecho gracia",
+            "description": "Puedes abrir otro regalo, pero a partir de ahora incrementará la dificultad",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "video/arbol.gif",
+            "next": 10
+        }
+    ]
+}
