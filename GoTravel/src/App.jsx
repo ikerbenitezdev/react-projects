@@ -10,13 +10,24 @@ import HomeHeader from "./components/HomeHeader";
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Trips from "./pages/Trips";
+import LogIn from "./pages/LogIn";
+
+import cities from "./mocks/data.json";
 
 export default function App(){
+  // const [ciudadSeleccionada, setCiudadSeleccionada] = useState('');
+  // const navigate = useNavigate();
+
+  // const handleBuscar = () => {
+  //   if (ciudadSeleccionada) {
+  //     navigate(`/trips?ciudad=${ciudadSeleccionada}`);
+  //   }
+  // };
   const { scrollYProgress } = useScroll();
   const location = useLocation(); // const changePath = ()=>{
    
     return (
-      <main>
+      <main className="h-screen">
           <motion.div
           className="progress-bar"
           style={{ scaleX: scrollYProgress }}
@@ -30,6 +41,7 @@ export default function App(){
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/trips" element={<Trips />} />
+            <Route path="/login" element={<LogIn />} />
           </Routes>
           <Footer/>
           

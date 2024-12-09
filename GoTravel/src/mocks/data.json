@@ -1,10 +1,104 @@
 {
-    "trips" : [
-        {
-            "location": "Madrid",
-            "duration": 3,
-            "description": "3 dias por Madrid donde hemos visitado...",
-            "username": "anonimo"
-        }
-    ]
+  "trips": [
+    {
+      "id": 1,
+      "title": "Madrid",
+      "description": "Capital de España, conocida por su arte y arquitectura.",
+      "location": "Madrid",
+      "username": "usuario123",
+      "duration": "5 días",
+      "expenses": 500,
+      "media": ""
+    },
+    {
+      "id": 2,
+      "title": "Barcelona",
+      "description": "Ciudad costera en España con rica cultura y playas.",
+      "location": "Barcelona",
+      "username": "viajero456",
+      "duration": "7 días",
+      "expenses": 700,
+      "media": ""
+    },
+    {
+      "id": 3,
+      "title": "Madrid",
+      "description": "Zona metropolitana con una vibrante vida nocturna.",
+      "location": "Madrid",
+      "username": "explorador789",
+      "duration": "3 días",
+      "expenses": 400,
+      "media": "/posts/img/madrid2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Ciudad de México",
+      "description": "Capital de México, rica en historia y gastronomía.",
+      "location": "Ciudad de México",
+      "username": "mexico_lover",
+      "duration": "10 días",
+      "expenses": 1000,
+      "media": ""
+    },
+    {
+      "id": 5,
+      "title": "Buenos Aires",
+      "description": "Capital de Argentina, famosa por el tango y el fútbol.",
+      "location": "Buenos Aires",
+      "username": "arg_fan",
+      "duration": "8 días",
+      "expenses": 800,
+      "media": ""
+    },
+    {
+      "id": 6,
+      "title": "Madrid",
+      "description": "Ciudad histórica con museos de retitle mundial.",
+      "location": "Madrid",
+      "username": "art_lover",
+      "duration": "6 días",
+      "expenses": 600,
+      "media": "/posts/img/madrid.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Sevilla",
+      "description": "Conocida por su flamenco, historia y la Giralda.",
+      "location": "Sevilla",
+      "username": "sevilla_fan",
+      "duration": "4 días",
+      "expenses": 450,
+      "media": ""
+    },
+    {
+      "id": 8,
+      "title": "Nueva York",
+      "description": "La ciudad que nunca duerme, llena de rascacielos y cultura.",
+      "location": "Nueva York",
+      "username": "nyc_addict",
+      "duration": "5 días",
+      "expenses": 1500,
+      "media": ""
+    },
+    {
+      "id": 9,
+      "title": "Barcelona",
+      "description": "Famosa por su arquitectura de Gaudí y su atmósfera vibrante.",
+      "location": "Barcelona",
+      "username": "barcelona_enthusiast",
+      "duration": "6 días",
+      "expenses": 750,
+      "media": ""
+    },
+    {
+      "id": 10,
+      "title": "Londres",
+      "description": "Capital de Inglaterra, conocida por su historia y diversidad.",
+      "location": "Londres",
+      "username": "london_fan",
+      "duration": "5 días",
+      "expenses": 1200,
+      "media": ""
+    }
+  ]
 }

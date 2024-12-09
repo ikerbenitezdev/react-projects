@@ -91,13 +91,13 @@
         },
         {
             "id": 8,
-            "title": "No se si ha sido fácil para ti, pero me ha hecho gracia",
-            "description": "Puedes abrir otro regalo, pero a partir de ahora incrementará la dificultad",
-            "isQuestion": false,
-            "questionType": "",
-            "question": "",
-            "answer": "",
-            "media": "video/arbol.gif",
+            "title": "Matematizate un poco",
+            "description": "Completa esta secuencia: 16, 06, 68, 88, X, 98.",
+            "isQuestion": true,
+            "questionType": "text",
+            "question": "¿Qué número va en el lugar de la X?",
+            "answer": "78",
+            "media": "",
             "next": 9
         },
         {
