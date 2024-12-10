@@ -10,7 +10,7 @@ export default function HomeHeader(){
 
     const handleBuscar = (ciudad) => {
       // Redirige a la página de resultados con la ciudad como parámetro
-      navigate(`/results?ciudad=${encodeURIComponent(ciudad)}`);
+      navigate(`/trips?ciudad=${encodeURIComponent(ciudad)}`);
     };
     return(
     <header className="relative w-full h-screen bg-cover bg-center bg-header-background">
