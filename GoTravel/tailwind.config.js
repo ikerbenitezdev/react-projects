@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-background': "url('back-header.webp')",
+        'header-background': "url('./public/back-header.webp')",
         'fondo': "url('fondo.webp')",
       }
     },
