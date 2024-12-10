@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom/client";
+
 import { Routes, Route, useLocation } from "react-router-dom";
 import  NavBar  from "./components/NavBar"
 import  Home  from "./pages/Home"

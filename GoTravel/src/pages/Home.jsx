@@ -1,4 +1,6 @@
 import Card from "../components/Card";
+import { motion }  from "framer-motion";
+import ParallaxText from "../components/ParallaxText";
 // import  { useNavigate } from "react-router-dom";
 // import  Search from "../components/Search";
 
@@ -22,7 +24,15 @@ export default function Home() {
   ];
 
   return (
-    <div>
+    <section>
+    <motion.div
+    initial={{
+      y: 200,
+      opacity: 0, 
+
+    }}
+    whileInView={{ y:0, opacity: 1, transition: { duration: 1 } }}
+    >
 
       <section className="flex flex-col max-w-4xl mx-auto my-8 p-4">
         <h2 className="text-2xl font-bold text-center my-4">
@@ -35,6 +45,11 @@ export default function Home() {
           ))}
         </article>
       </section>
-    </div>
+    </motion.div>
+    <article className="my-20">
+      <ParallaxText baseVelocity={-2}>Aprovecha al máximo tu viaje</ParallaxText>
+      <ParallaxText baseVelocity={2}>Comparte contenido unico</ParallaxText>
+    </article>
+    </section>
   );
 }
