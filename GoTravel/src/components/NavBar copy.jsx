@@ -3,7 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 export default function NavBar ({}) {
   const navigate = useNavigate()
   return (
-    <section className='bg-slate-200/50 w-full'>
+    <section className='bg-slate-200/50 dark:bg-gray-900  p-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600'>
       <div className='navbar max-w-7xl mx-auto'>
         <Link to="/"><img src="logo3.png" alt="logo"  width={'400px'}/></Link>
         <nav>

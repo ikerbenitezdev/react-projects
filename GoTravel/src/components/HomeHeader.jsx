@@ -1,4 +1,4 @@
-import NavBar from "./NavBar"
+import Prueba from "./NavBar"
 import Search from "./Search"
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -14,7 +14,7 @@ export default function HomeHeader(){
     };
     return(
     <header className="relative w-full h-screen bg-cover bg-center bg-header-background">
-    <NavBar />
+    <Prueba />
 
 
 {/* Hero Content */}

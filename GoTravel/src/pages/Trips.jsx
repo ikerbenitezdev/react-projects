@@ -1,5 +1,6 @@
 import { useLocation } from "react-router"
 import data from "../mocks/data.json"
+import Filter from "../components/Filter";
 
 export default function Trips() {
     const selectedTrips = data.trips;
@@ -11,18 +12,22 @@ export default function Trips() {
     const ciudadesFiltradas = selectedTrips.filter((c) => c.location === ciudadNombre);
 
     if (ciudadesFiltradas.length === 0) {
-        return <div>No se encontraron resultados para {ciudadNombre}</div>;
+        return <main className="pt-16"><div className="max-w-6xl mx-auto my-8 min-h-screen p-4">No se encontraron resultados para {ciudadNombre}</div></main>;
     }
 
     return (
-        <div className="max-w-6xl mx-auto my-8 min-h-screen">
-          <h1>Resultados para: {ciudadNombre}</h1>
-          <section className="flex flex-col gap-4 m-4">
+        <main className="pt-16">
+        <div className="max-w-6xl mx-auto my-8 min-h-screen p-4">
+            <div className="flex justify-between">
+                <h1 className="my-2">Resultados para: {ciudadNombre}</h1>
+                <Filter>Filtrar</Filter>
+            </div>
+          <section className="flex flex-col gap-4">
 
           {ciudadesFiltradas.map((trip) => (
               <article key={trip.id} className="rounded-md gradient-bg flex h-60 overflow-hidden relative">
               {/* Contenido del texto */}
-              <div className="flex flex-col p-4 flex-grow">
+              <div className="flex flex-col gap-1 p-4 flex-grow">
                 <span className="flex items-center gap-2">
                   <img className="w-8 rounded-full" src={`https://unavatar.io/github/${trip.username}`} alt={trip.username} />
                   {trip.username}
@@ -56,5 +61,6 @@ export default function Trips() {
           ))}
           </section>
         </div>
+        </main>
       );
 };

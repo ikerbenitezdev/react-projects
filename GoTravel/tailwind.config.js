@@ -13,7 +13,10 @@ module.exports = {
       backgroundImage: {
         'header-background': "url('/back-header.webp')",
         'fondo': "url('fondo.webp')",
-      }
+      },
+      colors:{
+        primary: "#FF8F4A" ,
+      } 
     },
   },
   plugins: [flowbite.plugin()],

@@ -23,14 +23,17 @@ body{
     --primary-color: #FF8F4A;
 }
 
-.navbar {
-    z-index: 1000;
-    position: relative;
-    top:0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 3rem;
+/* .navbar li a :active {
+    background-color: #FF8F4A !important;
+} */
+
+.fondo {
+  background-color: var(--primary-color);
+}
+
+
+.navbar div {
+  justify-content: space-around;
 }
 
 /* .navbar nav ul {
@@ -40,7 +43,9 @@ body{
 }  */
 .navbar li a{
     font-family: "Poppins", sans-serif;
+    border: 0;
     text-decoration: none;
+    color: #000; 
 }
 
 .navbar nav ul li a::after{
@@ -52,7 +57,7 @@ body{
     transition: width .3s;
 }
 .navbar nav ul li a:hover::after{
-    width: 100%;
+    width: 100% !important;
 }
 .progress-bar {
     z-index: 10000;
