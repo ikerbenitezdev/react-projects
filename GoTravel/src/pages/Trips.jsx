@@ -17,8 +17,8 @@ export default function Trips() {
 
     return (
         <main className="pt-16">
-        <div className="max-w-6xl mx-auto my-8 min-h-screen p-4">
-            <div className="flex justify-between">
+        <div className="max-w-6xl mx-auto my-4 min-h-screen p-4">
+            <div className="flex justify-between my-4">
                 <h1 className="my-2">Resultados para: {ciudadNombre}</h1>
                 <Filter>Filtrar</Filter>
             </div>
