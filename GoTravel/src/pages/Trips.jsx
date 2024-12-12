@@ -25,7 +25,7 @@ export default function Trips() {
           <section className="flex flex-col gap-4">
 
           {ciudadesFiltradas.map((trip) => (
-              <article key={trip.id} className="rounded-md gradient-bg flex h-60 overflow-hidden relative">
+              <article key={trip.id} className="rounded-md flex h-60 overflow-hidden relative bg-slate-whiote shadow-[0_4px_6px_-1px_rgb(0,0,0,0.2)]">
               {/* Contenido del texto */}
               <div className="flex flex-col gap-1 p-4 flex-grow">
                 <span className="flex items-center gap-2">

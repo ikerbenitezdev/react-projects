@@ -9,6 +9,7 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     /* position: relative; */
@@ -23,17 +24,16 @@ body{
     --primary-color: #FF8F4A;
 }
 
-/* .navbar li a :active {
-    background-color: #FF8F4A !important;
-} */
 
 .fondo {
   background-color: var(--primary-color);
+  color: white;
 }
 
 
 .navbar div {
   justify-content: space-around;
+  padding: 1em;
 }
 
 /* .navbar nav ul {
@@ -41,11 +41,16 @@ body{
   gap: 2em;
   list-style: none;
 }  */
+
+.navbar ul{
+  align-items: center;
+}
 .navbar li a{
     font-family: "Poppins", sans-serif;
     border: 0;
     text-decoration: none;
     color: #000; 
+    font-size: 1.2em;
 }
 
 .navbar nav ul li a::after{
@@ -73,11 +78,13 @@ body{
 
 .button-primary{
     background-color: var(--primary-color);
+    font-size: 1.2em;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
+    width: fit-content;
 }
 .button-primary:hover{
     background-color: #db5101;

@@ -9,9 +9,9 @@ export default function Prueba() {
         <img src="/logo.png" className="mr-3 h-9" alt="Go Travel" />
       </Navbar.Brand>
       <Navbar.Toggle />
-      <Navbar.Collapse className="bg-white md:bg-transparent">
+      <Navbar.Collapse className="bg-white rounded-sm mt-4 md:bg-transparent md:mt-0">
         {/* Navbar.Link con React Router */}
-        <Navbar.Link as={Link} to="/" active={window.location.pathname === "/"} className={location.pathname === "/" ? "fondo" : "text-gray-700"}>
+        <Navbar.Link as={Link} to="/" active={window.location.pathname === "/"} className={location.pathname === "/" ? "fondo" : "text-gray-200"}>
           Home
         </Navbar.Link>
         <Navbar.Link as={Link} to="/about" active={window.location.pathname === "/about"}>
@@ -20,9 +20,9 @@ export default function Prueba() {
         <Navbar.Link as={Link} to="/contact" active={window.location.pathname === "/contact"}>
           Contact
         </Navbar.Link>
-        <Navbar.Link as={Link} to="/login" active={window.location.pathname === "/login"}>
+        <Link as={Link} to="/login" className="button-primary">
           Iniciar sesion
-        </Navbar.Link>
+        </Link>
       </Navbar.Collapse>
     </Navbar>
       // </div>
