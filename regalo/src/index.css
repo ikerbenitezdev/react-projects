@@ -6,6 +6,7 @@
 @tailwind utilities;
 
 body, html {
+  /* overflow-y: auto; */
   background-color: #00381f;
   color: #333;
   min-height: 100vh;

@@ -17,8 +17,8 @@ function App() {
       setStep(nextStep); // Avanza al siguiente paso
       localStorage.setItem("currentStep", nextStep);
     } else {
-      setStep(data.steps.length);
-      localStorage.setItem("currentStep", data.steps.length);
+      let url = window.location.href;
+      window.location.href = url+'certificado.html';
     }
 };
 

@@ -36,12 +36,6 @@ body{
   padding: 1em;
 }
 
-/* .navbar nav ul {
-  display: flex;
-  gap: 2em;
-  list-style: none;
-}  */
-
 .navbar ul{
   align-items: center;
 }

@@ -102,14 +102,104 @@
         },
         {
             "id": 9,
-            "title": "No se si ha sido fácil para ti, pero me ha hecho gracia",
-            "description": "Puedes abrir otro regalo, pero a partir de ahora incrementará la dificultad",
+            "title": "¡Veo que eres una crack!",
+            "description": "Abre otro regalo",
             "isQuestion": false,
             "questionType": "",
             "question": "",
             "answer": "",
-            "media": "video/arbol.gif",
+            "media": "",
             "next": 10
+        },
+        {
+            "id": 10,
+            "title": "Tu madre sabe de plantas, ¿Pero tú?",
+            "description": "",
+            "isQuestion": true,
+            "questionType": "radio",
+            "question": "¿Que planta es esta?",
+            "options": ["Pamplina", "Aloe Vera", "Hierba Gallinera", "A y C son correctas"],
+            "answer": "A y C son correctas",
+            "media": "img/pamplina.webp",
+            "next": 11
+        },
+        {
+            "id": 11,
+            "title": "¡Muy buena!",
+            "description": "Date el lujazo de abrir otro regalo",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "",
+            "next": 12
+        },
+        {
+            "id": 12,
+            "title": "¡Tu sabes mucho de geografía!",
+            "description": "",
+            "isQuestion": true,
+            "questionType": "",
+            "question": "¿A que continente pertenece Triniddad y Tobago?",
+            "options": ["América del Sur", "Asia", "América del Notre", "África"],
+            "answer": "América del Sur",
+            "media": "img/tobago.png",
+            "next": 13
+        },
+        {
+            "id": 13,
+            "title": "¡Opaaa listilla!",
+            "description": "Abreló",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "video/regalo2.gif",
+            "next": 14
+        },
+        {
+            "id": 14,
+            "title": "¡Adivinanzaaaa!",
+            "description": "",
+            "isQuestion": true,
+            "questionType": "text",
+            "question": "No muerde ni ladra, pero tiene dientes y la casa guarda. ¿Qué es?",
+            "answer": "llave",
+            "media": "",
+            "next": 15
+        },
+        {
+            "id": 15,
+            "title": "¡Era fácil pero bueno!",
+            "description": "Te deben quedar ya pocos regalos por abrir, sigue así",
+            "isQuestion": false,
+            "questionType": "",
+            "question": "",
+            "answer": "",
+            "media": "",
+            "next": 16
+        },
+        {
+            "id": 16,
+            "title": "¡Acertijooo!",
+            "description": "Cuál es el error en la imagen",
+            "isQuestion": true,
+            "questionType": "text",
+            "question": "",
+            "answer": "viento",
+            "media": "img/acertijo.jpg",
+            "next": 17
+        },
+        {
+            "id": 17,
+            "title": "¡Adivina!",
+            "description": "Una pera cuesta 40 céntimos, una banana 60 céntimos y una ciruela 80 céntimos. ¿Cuánto cuesta una manzana?",
+            "isQuestion": true,
+            "questionType": "text",
+            "question": "",
+            "answer": "60",
+            "media": "img/pomes.jpg",
+            "next": 18
         }
     ]
 }
