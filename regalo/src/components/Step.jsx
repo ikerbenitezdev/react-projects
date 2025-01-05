@@ -19,7 +19,8 @@ export default function Step({ props }) {
 
             // Muestra el mensaje de alerta usando la referencia
             if (formAlertRef.current) {
-                formAlertRef.current.style.display = "block";
+                // formAlertRef.current.style.display = "block";
+                alert("Vamos inténtalo de nuevo.");
             }
         }
     };
@@ -30,7 +31,7 @@ export default function Step({ props }) {
                 <h2 className="font-semibold text-xl">{props.title}</h2>
                 {props.media && (
                     <img
-                        className="max-h-64 rounded-md"
+                        className="max-w-80 mx-auto rounded-md"
                         src={props.media}
                         alt={props.title}
                     />
@@ -49,7 +50,6 @@ export default function Step({ props }) {
                             placeholder="Tu respuesta"
                             value={inputValue}
                             onChange={(e) => setInputValue(e.target.value)}
-                            autoFocus
                         />
                     ) : (
                         // Opciones de radio

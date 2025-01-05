@@ -13,7 +13,7 @@
         },
         {
             "id": 1,
-            "title": "Hola lo he hecho con mucho amor para que lo disfrutes",
+            "title": "Lo he hecho con mucho amor para que lo disfrutes",
             "description": "Se trata de un mini juego para pasarlo bien, espero que te guste :)",
             "isQuestion": false,
             "questionType": "",
@@ -131,7 +131,7 @@
             "questionType": "",
             "question": "",
             "answer": "",
-            "media": "",
+            "media": "video/regalo4.gif",
             "next": 12
         },
         {
@@ -171,12 +171,12 @@
         {
             "id": 15,
             "title": "¡Era fácil pero bueno!",
-            "description": "Te deben quedar ya pocos regalos por abrir, sigue así",
+            "description": "Te deben quedar ya pocos regalos por abrir, pero ahora no te toca",
             "isQuestion": false,
             "questionType": "",
             "question": "",
             "answer": "",
-            "media": "",
+            "media": "img/regalo.png",
             "next": 16
         },
         {

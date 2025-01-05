@@ -31,8 +31,8 @@ function App() {
           transition={{ duration:  1.5}}
           className="welcome-screen"
         >
-          <h1 className='main-title text-2xl md:text-6xl'>¡Feliz Navidad!</h1>
-          <p className='text-md my-4 text-white md:text-lg'>¡Bienvenida Cate a tu regalo de Navidad! Sigue los pasos para descubrir tu regalo.</p>
+          <h1 className='main-title text-2xl md:text-6xl'>¡HOLA CATE!</h1>
+          <p className='text-md my-4 text-white md:text-lg'>¡Bienvenida a tu regalo! Sigue los pasos para descubrir tu regalo.</p>
           <button className="button" onClick={() => setStep(step+1)}>Comenzar</button>
         </motion.div>
       )}
