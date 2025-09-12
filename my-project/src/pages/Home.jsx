@@ -1,10 +1,14 @@
-import Post from "./Post";
-import Timeline from "./Timeline";
-import Projects from "./Projects";
-import About from "./About";
-import Contact from "./Contact";
+import Post from "../components/home/Post";
+// import Header from "./Header";
+import Timeline from "../components/home/Timeline";
+import Projects from "../components/home/Projects";
+import About from "../components/home/About";
+import Contact from "../components/home/Contact";
+
+
 export default function Home() {
     return (
+      // <Header />
       <main className="px-4">
         {/* The sections that will be scrolled to via hash navigation */}
         <section id="post" className="scroll-m-20">

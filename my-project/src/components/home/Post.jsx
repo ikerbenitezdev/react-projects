@@ -5,7 +5,8 @@ const Model = lazy(() => import('./Model'));
 
 export default function Post() {
   return (
-    <section className="flex flex-wrap justify-center items-center mx-auto py-20 gap-x-2 gap-y-5 md:py-36">
+<section className="flex flex-wrap justify-center items-center mx-auto py-20 px-4 gap-x-2 gap-y-5 md:py-36 max-w-screen-lg">
+<article className='flex flex-col gap-2 max-w-xl'>
       <div className="flex gap-4 mb-4"> 
         <div className='flex gap-4 items-center'>
         <img className="rounded-full shadow-lg size-16 object-cover" src="/foto-personal.jpeg" alt="Iker Benitez"></img>
@@ -29,7 +30,7 @@ export default function Post() {
         </div>
 
       </div>
-        <h2 className="flex items-baseline text-3xl font-bold sm:text-4xl">
+        <h2 className="flex items-baseline flex-wrap text-3xl font-bold text-white sm:text-4xl">
           ¡Hola! Soy <span className="animated-background">Iker Benitez</span>
         </h2>
         <h3 className='text-xl text-gray-400'>Técnico superior en Desarrollo de Aplicaciones Web</h3>
@@ -111,5 +112,6 @@ export default function Post() {
           {/* </Suspense> */}
         </Canvas>
       </article>
+    </section>
   );
 }

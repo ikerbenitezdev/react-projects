@@ -1,4 +1,4 @@
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,25 +39,4 @@
 
 .read-the-docs {
   color: #888;
-} */
-
-.gradient-card {
-  background: linear-gradient(90deg, #214e81, #003aae, #154bb7, #ffffff, #b0d7e8, #1f4c8e, #eaebec, #214e81);
-  background-size: 300% 300%; /* necesario para animar el gradiente */
-}
-
-.animate-card {
-  animation: gradient 8s linear infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }

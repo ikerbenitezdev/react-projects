@@ -5,7 +5,7 @@ function Header() {
       <header className="fixed top-0 w-full z-10 bg-opacity-50 backdrop-blur-sm dark:bg-white-900 dark:border-white-700">
             <nav className="max-w-3xl mx-auto border-white-200 dark:bg-white-900">
             <div className="max-w-screen-xl flex flex-wrap items-center mx-auto p-4 text-white sm: justify-center md:justify-between">
-                <a href="" className="flex items-center space-x-3 rtl:space-x-reverse sm: space-x-0">
+                <a href="" className="flex items-center space-x-3 rtl:space-x-reverse sm:space-x-0">
                     <img src="/logo.png" className="h-10" alt="Iker Benitez Developer" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">IkerDev</span>
                 </a>
